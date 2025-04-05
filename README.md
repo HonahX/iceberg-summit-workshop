@@ -20,10 +20,16 @@ Please make sure your laptop is ready:
 Want to save time on workshop day? You can build and prepare the environment ahead of time by running:
 
 ```
-docker compose up --build
+docker compose up -d --build
 ```
+Once you see the following message in your terminal
 
-Then press CTRL+C to exit after setup is complete.
+![](./imgs/docker-compose-start.png)
+
+it means all the containers are setup successfully. You can then shutdown them via
+```
+docker compose down
+```
 
 
 ## How to Run the Workshop
@@ -37,22 +43,33 @@ git clone https://github.com/HonahX/iceberg-summit-workshop.git
 ### Step 2: Launch the Workshop Environment
 Inside the repo directory, start the environment by running:
 ```bash
-make start
+docker compose up -d
 ```
-Or, directly use:
-```bash
-docker compose up
-```
+Proceed to the next step once you see
+
+![](./imgs/docker-compose-start.png)
+
+in your terminal.
+
 
 ### Step 3: Access the Workshop Notebook
-Open your browser and visit:
-[http://127.0.0.1:8888/lab/tree/workshop.ipynb](http://127.0.0.1:8888/lab/tree/workshop.ipynb)
+- Open your favorite web brower
+- Type the following address into the address bar:
+   - [http://127.0.0.1:8888/lab/tree/workshop.ipynb](http://127.0.0.1:8888/lab/tree/workshop.ipynb)
+- Press Enter and you shall the see workshop notebook like below.
+
+![](./imgs/jupyter-notebook.png)
 
 ## Stopping the Workshop
-When you're finished, simply run:
+When you're finished, run the following code in the terminal that ran step 1:
 ```bash
-make stop
+docker compose down
 ```
+Once you see
+
+![](./imgs/docker-compose-down.png)
+
+every component of the workshop has been shut down.
 
 We can't wait to get started—see you there! 🎉
 
