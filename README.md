@@ -6,6 +6,12 @@ We'll explore Iceberg fundamentals, core concepts, and real-world table operatio
 
 This first session is a warm-up focused on clear, easy-to-follow examples of basic table operations with PyIceberg to introduce you to the essentials of Iceberg.
 
+## Alternative Way to Run the Workshop
+
+If you're having trouble installing Docker Desktop on your laptop, don't worry! We've prepared a Google Colab version of the workshop that doesn't require any local setup. Simply click the link below and follow the instructions provided to run the workshop:
+
+- [Iceberg Getting Started Workshop Colab](https://colab.research.google.com/github/HonahX/iceberg-summit-workshop/blob/colab_dev/Iceberg_getting_started_colab.ipynb)
+
 ## Before You Arrive
 Please make sure your laptop is ready:
 
