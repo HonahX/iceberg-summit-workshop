@@ -78,7 +78,7 @@ Once you see
 every component of the workshop has been shut down.
 
 
-# Next Part: Iceberg in Production Workshop
+## Next Part: Iceberg in Production Workshop
 Ready to go deeper?
 
 Check out the second part of the workshop focused on production use cases:
