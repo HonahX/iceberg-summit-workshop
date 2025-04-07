@@ -77,5 +77,13 @@ Once you see
 
 every component of the workshop has been shut down.
 
-We can't wait to get started—see you there! 🎉
 
+# Next Part: Iceberg in Production Workshop
+Ready to go deeper?
+
+Check out the second part of the workshop focused on production use cases:
+```
+https://github.com/dlt-hub/workshop-iceberg-summit
+```
+
+We can't wait to get started—see you there! 🎉
